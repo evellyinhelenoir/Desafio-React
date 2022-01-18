@@ -1,0 +1,21 @@
+.Card{
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+    overflow: hidden;
+
+    background: #F0C27B;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4B1248, #F0C27B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4B1248, #F0C27B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border: 7px solid linear-gradient(to right, #4B1248, #F0C27B);
+    border-radius: 20px;
+    margin: 15px;
+    align-items: center;
+    align-content: center;
+
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+}
+
